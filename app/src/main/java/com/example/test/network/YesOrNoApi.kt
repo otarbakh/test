@@ -6,5 +6,5 @@ import retrofit2.http.GET
 
 interface YesOrNoApi {
     @GET("api")
-    suspend fun getYesOrNo() : Response<YesOrNoResponse>
+    suspend fun getYesOrNo() : YesOrNoResponse
 }
